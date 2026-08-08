@@ -39,7 +39,7 @@ The project aims to explore how embedded systems, robotics, sensors and wireless
 - Ultrasonic trigger: GPIO 5
 - Ultrasonic echo: GPIO 18
 
-   My Role
+   ## My Role
 
 This was an individual project completed during my second semester of Electronic and Computer Engineering.
 
