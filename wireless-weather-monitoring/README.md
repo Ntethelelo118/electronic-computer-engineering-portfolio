@@ -1,33 +1,62 @@
-# Wireless Weather Monitoring System
+# Wireless Weather Monitoring & Automation System
 
 ## Project Overview
 
-An ESP32-based wireless weather monitoring and automation system designed to monitor environmental conditions and control connected devices remotely.
+An ESP32-based wireless weather monitoring and automation system designed to monitor environmental conditions and control electrical loads remotely.
 
-## Technologies and Components
+The system integrates sensors, a display, relay-controlled loads and a wireless IoT platform to provide real-time monitoring and automation.
 
-- ESP32 microcontroller
-- DHT11 temperature and humidity sensor
-- LDR light sensor
-- LCD display
-- Relay modules
-- 12V DC fan
-- 100W lamp
-- Blynk IoT platform
-- Web dashboard
+## Objectives
 
-## Key Features
+- Monitor temperature and humidity in real time.
+- Detect ambient light levels.
+- Display sensor information locally.
+- Control electrical loads using relay modules.
+- Provide wireless monitoring and control through an IoT platform.
+- Demonstrate the integration of embedded systems, sensors, wireless communication and automation.
 
-- Real-time temperature and humidity monitoring
-- Ambient light monitoring
-- Wireless monitoring through the Blynk platform
-- Remote control of connected devices
-- Automatic control based on environmental conditions
-- Local display of sensor information
+## Technologies & Components
+- ESP32
+- DHT11 Temperature & Humidity Sensor
+- LDR Light Sensor
+- LCD Display
+- Relay Modules
+- 12V DC Fan
+- 100W Lamp
+- Blynk IoT Platform
+- Web Dashboard
+- Embedded C/C++ programming
 
-## My Role 
-I was responsible for leading the project team, coordinating technical development, contributing to the system design and implementation, and presenting and demonstrating the completed system.
+## System Features
 
-## Skills Demonstrated
+- Real-time temperature monitoring
+- Real-time humidity monitoring
+- Ambient light detection
+- Automated electrical load control
+- Wireless device control
+- Local LCD monitoring
+- IoT-based monitoring through Blynk
+- Web-based dashboard
 
-Embedded Systems | ESP32 | IoT | Sensors | Automation | 
+    ## My Role
+
+I was responsible for the design, development, programming, integration and testing of the system.
+
+My work included interfacing the ESP32 with sensors and actuators, developing the embedded control logic, configuring the IoT platform and troubleshooting hardware and software integration issues.
+
+## Engineering Skills Demonstrated
+
+- Embedded systems development
+- ESP32 programming
+- Sensor interfacing
+- IoT development
+- Wireless communication
+- Relay and actuator control
+- Hardware-software integration
+- Automation
+- System troubleshooting
+- Technical problem solving
+
+## Future Improvements
+
+Possible improvements include adding more environmental sensors, improving energy efficiency, implementing advanced automation logic and integrating additional smart-building functionality. 
