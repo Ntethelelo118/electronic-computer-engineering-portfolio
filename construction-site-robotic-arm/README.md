@@ -134,3 +134,40 @@ The ESP32 provides the control signals for the servo motors and sensor interface
 The servo motors are connected to the robotic arm's base, shoulder, elbow and gripper mechanisms. The HC-SR04 provides distance measurements to the ESP32, which uses the measured distance as part of the automatic pick-and-place decision process.
 
 The system also uses three LEDs to provide visual feedback for the operating mode and object detection status.
+
+## Software and Source Code
+
+The robotic arm is programmed using the Arduino development environment with the ESP32 as the main microcontroller.
+
+The software integrates wireless communication, sensor processing, servo control, operating-mode selection and the automatic pick-and-place sequence.
+
+### Main Software Functions
+
+- ESP32-based embedded control
+- Blynk wireless communication
+- Manual and automatic operating modes
+- Servo motor control
+- HC-SR04 distance measurement
+- Automatic object detection
+- Automatic pick-and-place sequence
+- Real-time distance monitoring through the Blynk interface
+- LED status indication
+
+### Blynk Control
+
+The Blynk interface is used to interact with the robotic arm remotely.
+
+| Virtual Pin | Function |
+|---|---|
+| V0 | Automatic / Manual mode selection |
+| V1 | Base servo control |
+| V2 | Shoulder servo control |
+| V3 | Elbow servo control |
+| V4 | Gripper servo control |
+| V5 | Distance monitoring |
+
+### Source Code
+
+The complete ESP32 source code is available in the `src` directory:
+
+[View the ESP32 Source Code](./src/robotic_arm.ino)
