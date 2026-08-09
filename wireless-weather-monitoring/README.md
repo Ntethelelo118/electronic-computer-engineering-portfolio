@@ -165,3 +165,26 @@ The system operates according to the following sequence:
 8. LED indicators provide additional visual feedback regarding the operating conditions of the system.
 
 This operating sequence allows the system to combine environmental sensing, local indication, wireless communication, and actuator control into a single embedded IoT solution. 
+
+## 9. Source Code
+
+The embedded firmware for the Wireless Weather Monitoring System was developed for the ESP32 using C/C++ and the Arduino development environment.
+
+The source code implements the core functionality of the system, including:
+
+- DHT11 temperature and humidity data acquisition.
+- LDR-based ambient light monitoring.
+- Local temperature and humidity display through the I2C LCD.
+- Wireless communication with the Blynk IoT platform.
+- Automatic temperature-based control of the lamp and fan.
+- Manual control of the lamp and fan through the Blynk dashboard.
+- Temperature and lighting status indication using LEDs.
+- Processing and transmission of sensor data to the remote monitoring interface.
+
+### Source Code File
+
+The complete sanitized source code is available here:
+
+**[View ESP32 Source Code](./src/weather_monitoring.ino)**
+
+> **Note:** The published source code contains placeholders for Wi-Fi and Blynk credentials to prevent sensitive authentication information from being exposed in the public repository.
