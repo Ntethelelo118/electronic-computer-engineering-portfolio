@@ -98,3 +98,32 @@ The implemented system uses the following documented ESP32 connections:
 - **LCD:** I2C interface at address `0x27`
 
 These connections form the hardware interface between the ESP32, environmental sensors, display, indicators, and controlled outputs.
+
+## 6. Software & Technologies
+
+The Wireless Weather Monitoring System integrates embedded programming, wireless communication, cloud-based monitoring, and hardware control technologies to provide real-time environmental monitoring and automated control.
+
+### 6.1 Programming and Development
+
+- **Arduino IDE** – Used for programming and uploading firmware to the ESP32.
+- **C/C++** – Used to develop the embedded control and monitoring logic.
+- **ESP32 Libraries** – Used to interface with sensors, the LCD, LEDs, and relay-controlled devices.
+
+### 6.2 Wireless Monitoring and Control
+
+- **Blynk IoT Platform** – Used to provide wireless monitoring and remote control through a web-based dashboard.
+- **Blynk Datastreams** – Used to exchange sensor readings and control commands between the ESP32 and the Blynk platform.
+
+### 6.3 Embedded System Technologies
+
+The software is responsible for:
+
+- Reading temperature and humidity data from the DHT11 sensor.
+- Monitoring ambient light levels using the LDR.
+- Displaying environmental readings on the I2C LCD.
+- Controlling the lamp and fan through relay outputs.
+- Driving LED indicators according to the measured temperature and lighting conditions.
+- Sending sensor data to the Blynk dashboard for remote monitoring.
+- Receiving control commands from the Blynk dashboard.
+
+Together, these technologies enable the system to combine environmental sensing, local processing, wireless communication, monitoring, and automated control within a single embedded platform.
