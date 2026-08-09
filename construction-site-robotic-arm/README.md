@@ -183,7 +183,7 @@ The following documents provide additional technical and presentation material f
 
 The following images document the physical construction, electronic integration and demonstration of the Construction Site Robotic Arm.
 
-### 21. Robotic Arm Development
+### Robotic Arm Development
 
 ![Robotic Arm Development](./images/IMG-20260808-WA0107.jpg)
 
@@ -206,7 +206,7 @@ The following images document the physical construction, electronic integration 
 ### Project Demonstration
 ![Project Demonstration](./images/IMG-20260808-WA0114.jpg) 
 
-## 22. Challenges and Solutions
+## 21. Challenges and Solutions
 
 Several technical and practical challenges were encountered during the development of the robotic arm. These challenges provided valuable opportunities for troubleshooting, system optimisation and engineering problem-solving.
 
@@ -256,7 +256,7 @@ Achieving suitable alignment between the robotic arm, gripper and target object.
 **Solution:**  
 The servo positions and movement sequences were adjusted through repeated testing to improve the arm's positioning and object-handling capability.
 
-## 23. Future Improvements
+## 22. Future Improvements
 
 The current robotic arm demonstrates the potential of embedded systems, sensing and automation in construction environments. Several improvements could be implemented in future versions to increase the system's accuracy, reliability and practical application.
 
@@ -292,7 +292,7 @@ Additional safety mechanisms could be introduced, including emergency-stop funct
 
 Machine learning and artificial intelligence could eventually be incorporated to enable the robotic system to recognise objects, optimise movement patterns and make more intelligent decisions based on its environment.
 
-## 24. Conclusion
+## 23. Conclusion
 
 The Construction Site Robotic Arm project provided practical experience in the design and development of an embedded automation system for construction-related applications. The project combined an ESP32 microcontroller, ultrasonic sensing, servo motor control and wireless interaction to demonstrate automated object detection, handling and pick-and-place operations.
 
