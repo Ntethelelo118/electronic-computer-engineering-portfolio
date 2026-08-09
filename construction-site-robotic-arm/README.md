@@ -172,7 +172,7 @@ The complete ESP32 source code is available in the `src` directory:
 
 [View the ESP32 Source Code](./src/robotic_arm.ino)
 
-## 13. Project Images
+## Project Images
 
 The following images document the physical construction, electronic integration and demonstration of the Construction Site Robotic Arm.
 
