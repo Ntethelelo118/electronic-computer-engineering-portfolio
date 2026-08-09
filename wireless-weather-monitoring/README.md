@@ -148,3 +148,20 @@ The implemented dashboard provides the following functionality:
 The dashboard communicates with the ESP32 through the Blynk IoT platform, enabling wireless monitoring and control without requiring a direct physical connection to the hardware.
 
 This interface demonstrates the integration of embedded hardware, wireless communication, cloud-based IoT services, and remote device control within the project. 
+
+## 8. System Operation
+
+The Wireless Weather Monitoring System operates by continuously collecting environmental data through sensors connected to the ESP32. The collected data is processed by the ESP32 and used to monitor and control the connected outputs.
+
+The system operates according to the following sequence:
+
+1. The **DHT11 sensor** measures the surrounding temperature and humidity.
+2. The **LDR sensor** detects the surrounding light intensity.
+3. The ESP32 processes the sensor readings and determines the required system responses.
+4. The measured environmental conditions are displayed locally through the **I2C LCD**.
+5. The sensor data is transmitted wirelessly to the **Blynk IoT platform**.
+6. The Blynk dashboard provides real-time monitoring of the environmental conditions.
+7. The connected **lamp and fan** can be controlled according to the programmed system logic and through the available dashboard controls.
+8. LED indicators provide additional visual feedback regarding the operating conditions of the system.
+
+This operating sequence allows the system to combine environmental sensing, local indication, wireless communication, and actuator control into a single embedded IoT solution. 
