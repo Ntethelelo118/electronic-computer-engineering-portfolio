@@ -1,62 +1,9 @@
-# Wireless Weather Monitoring & Automation System
+# Wireless Weather Monitoring System
 
-## Project Overview
+## 1. Project Overview
 
-An ESP32-based wireless weather monitoring and automation system designed to monitor environmental conditions and control electrical loads remotely.
+The Wireless Weather Monitoring System is a group-based engineering project developed to monitor environmental conditions using an ESP32-based embedded system. The system integrates environmental sensors, wireless communication, local hardware outputs, and a cloud-based monitoring interface to provide real-time access to measured weather parameters.
 
-The system integrates sensors, a display, relay-controlled loads and a wireless IoT platform to provide real-time monitoring and automation.
+The project demonstrates the practical application of embedded systems, Internet of Things (IoT) technologies, sensor interfacing, wireless communication, and remote monitoring. The collected environmental data is processed by the ESP32 and transmitted to a remote dashboard, allowing the monitored conditions to be observed without requiring direct physical access to the hardware.
 
-## Objectives
-
-- Monitor temperature and humidity in real time.
-- Detect ambient light levels.
-- Display sensor information locally.
-- Control electrical loads using relay modules.
-- Provide wireless monitoring and control through an IoT platform.
-- Demonstrate the integration of embedded systems, sensors, wireless communication and automation.
-
-## Technologies & Components
-- ESP32
-- DHT11 Temperature & Humidity Sensor
-- LDR Light Sensor
-- LCD Display
-- Relay Modules
-- 12V DC Fan
-- 100W Lamp
-- Blynk IoT Platform
-- Web Dashboard
-- Embedded C/C++ programming
-
-## System Features
-
-- Real-time temperature monitoring
-- Real-time humidity monitoring
-- Ambient light detection
-- Automated electrical load control
-- Wireless device control
-- Local LCD monitoring
-- IoT-based monitoring through Blynk
-- Web-based dashboard
-
-    ## My Role
-
-I was responsible for the design, development, programming, integration and testing of the system.
-
-My work included interfacing the ESP32 with sensors and actuators, developing the embedded control logic, configuring the IoT platform and troubleshooting hardware and software integration issues.
-
-## Engineering Skills Demonstrated
-
-- Embedded systems development
-- ESP32 programming
-- Sensor interfacing
-- IoT development
-- Wireless communication
-- Relay and actuator control
-- Hardware-software integration
-- Automation
-- System troubleshooting
-- Technical problem solving
-
-## Future Improvements
-
-Possible improvements include adding more environmental sensors, improving energy efficiency, implementing advanced automation logic and integrating additional smart-building functionality. 
+The project was developed as part of the Electronic and Computer Engineering programme at Durban University of Technology (DUT), with the work carried out collaboratively as a group.
