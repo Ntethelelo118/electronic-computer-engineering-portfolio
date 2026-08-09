@@ -81,3 +81,30 @@ The overall operating sequence consists of:
 7. Releasing the material using the gripper.
 
 This demonstrates how embedded systems, sensing, wireless communication and robotic actuation can be integrated into an automated construction application.
+
+## System Architecture
+
+The system is based on an ESP32 microcontroller that coordinates sensing, wireless communication, decision-making and robotic movement.
+
+The main system architecture consists of the following components:
+
+- **ESP32 Microcontroller:** Central control unit responsible for processing sensor information, receiving commands and controlling the robotic arm.
+- **HC-SR04 Ultrasonic Sensor:** Used for distance measurement and object detection. The sensor provides feedback to the ESP32 to determine when an object is within the required detection range.
+- **Servo Motors:** Control the movement of the robotic arm, including the base, shoulder, elbow and gripper.
+- **Wireless Communication:** Enables remote interaction and control of the robotic arm.
+- **Blynk Platform:** Provides the user interface for sending control commands and interacting with the robotic arm.
+- **External Power Supply:** Provides the required power for the servo motors to ensure stable operation.
+
+### Automatic Pick-and-Place Process
+
+The ultrasonic sensor is integrated into the automatic pick-and-place process. The sensor continuously measures the distance to the target object and provides feedback to the ESP32.
+
+When an object is detected within the defined distance range, the ESP32 initiates the programmed sequence of robotic movements. The servo motors then coordinate the positioning of the arm, gripping of the object, movement to the designated location and release of the object.
+
+The general system flow is:
+
+**HC-SR04 Sensor → ESP32 → Decision Making → Servo Control → Robotic Arm Movement**
+
+Wireless commands through the Blynk interface provide an additional method of interacting with the system.
+
+The ESP32 therefore serves as the central interface between the sensing system, software control logic and physical robotic mechanism, enabling an automated construction-material handling process.
