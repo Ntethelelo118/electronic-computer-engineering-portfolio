@@ -172,12 +172,12 @@ The complete ESP32 source code is available in the `src` directory:
 
 [View the ESP32 Source Code](./src/robotic_arm.ino)
 
-## Project Documentation
+## 14. Project Documentation
 
-The following supporting documents provide additional technical and project information:
+The following documents provide additional technical and presentation material for the project:
 
-- [Final Project Report](docs/GrpC_SheziSN_Final Report.pdf)
-- [Project Presentation](docs/GrpC_SheziSN_Final Pres.pdf)
+- 📄 [Final Project Report](./docs/GrpC_SheziSN_Final%20Report.pdf)
+- 📊 [Project Presentation](./docs/GrpC_SheziSN_Final%20Pres.pdf) 
   
 ## Project Images
 
