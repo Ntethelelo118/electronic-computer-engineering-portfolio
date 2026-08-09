@@ -127,3 +127,24 @@ The software is responsible for:
 - Receiving control commands from the Blynk dashboard.
 
 Together, these technologies enable the system to combine environmental sensing, local processing, wireless communication, monitoring, and automated control within a single embedded platform.
+
+## 7. Blynk & Web Dashboard
+
+The Wireless Weather Monitoring System uses the Blynk IoT platform to provide remote monitoring and control of the system through a web dashboard.
+
+The Blynk dashboard displays real-time environmental measurements obtained from the ESP32 and provides control interfaces for the connected actuators.
+
+### Dashboard Functions
+
+The implemented dashboard provides the following functionality:
+
+- **Temperature Monitoring:** Displays the temperature measured by the DHT11 sensor.
+- **Humidity Monitoring:** Displays the relative humidity measured by the DHT11 sensor.
+- **Light-Level Monitoring:** Displays the ambient light condition detected by the LDR sensor.
+- **Lighting Control:** Allows the connected lamp to be controlled remotely through the dashboard.
+- **Fan Control:** Allows the connected fan to be controlled remotely.
+- **System Indicators:** Provides visual indicators for the operating state of the lighting, fan, and temperature conditions.
+
+The dashboard communicates with the ESP32 through the Blynk IoT platform, enabling wireless monitoring and control without requiring a direct physical connection to the hardware.
+
+This interface demonstrates the integration of embedded hardware, wireless communication, cloud-based IoT services, and remote device control within the project. 
