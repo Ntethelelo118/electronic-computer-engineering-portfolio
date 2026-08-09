@@ -108,3 +108,29 @@ The general system flow is:
 Wireless commands through the Blynk interface provide an additional method of interacting with the system.
 
 The ESP32 therefore serves as the central interface between the sensing system, software control logic and physical robotic mechanism, enabling an automated construction-material handling process.
+
+## Circuit and Wiring
+
+The robotic arm uses an ESP32 as the main control unit. The ESP32 interfaces with the servo motors, HC-SR04 ultrasonic sensor and status LEDs.
+
+### GPIO Configuration
+
+| Component | ESP32 GPIO | Function |
+|---|---:|---|
+| Base Servo | GPIO 13 | Controls base rotation |
+| Shoulder Servo | GPIO 12 | Controls shoulder movement |
+| Elbow Servo | GPIO 14 | Controls elbow movement |
+| Gripper Servo | GPIO 27 | Controls gripper opening and closing |
+| HC-SR04 Trigger | GPIO 5 | Sends ultrasonic trigger pulse |
+| HC-SR04 Echo | GPIO 18 | Receives ultrasonic echo |
+| Auto Mode LED | GPIO 21 | Indicates automatic mode |
+| Manual Mode LED | GPIO 22 | Indicates manual mode |
+| Brick Detection LED | GPIO 23 | Indicates object detection |
+
+### Power and Control
+
+The ESP32 provides the control signals for the servo motors and sensor interfaces, while an external 5 V supply is used for the servo motors.
+
+The servo motors are connected to the robotic arm's base, shoulder, elbow and gripper mechanisms. The HC-SR04 provides distance measurements to the ESP32, which uses the measured distance as part of the automatic pick-and-place decision process.
+
+The system also uses three LEDs to provide visual feedback for the operating mode and object detection status.
