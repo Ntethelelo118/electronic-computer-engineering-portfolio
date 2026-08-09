@@ -248,3 +248,39 @@ Achieving suitable alignment between the robotic arm, gripper and target object.
 
 **Solution:**  
 The servo positions and movement sequences were adjusted through repeated testing to improve the arm's positioning and object-handling capability.
+
+## Future Improvements
+
+The current robotic arm demonstrates the potential of embedded systems, sensing and automation in construction environments. Several improvements could be implemented in future versions to increase the system's accuracy, reliability and practical application.
+
+### Improved Object Detection
+
+A more advanced vision system could be integrated using a camera and computer vision to identify objects, determine their position and distinguish between different construction materials.
+
+### Automated Positioning
+
+The robotic arm could be equipped with additional sensors or a more precise positioning mechanism to improve the accuracy of object detection, picking and placement.
+
+### Stronger Robotic Mechanism
+
+The current prototype could be upgraded with stronger servo motors, improved mechanical joints and a more robust gripper to allow the system to handle heavier construction materials.
+
+### Autonomous Operation
+
+The system could be developed to operate with minimal human intervention by combining sensor feedback, programmed decision-making and automated movement sequences.
+
+### Advanced Wireless Monitoring
+
+A more advanced monitoring platform could be implemented to provide real-time information about the robotic arm, including operating status, sensor readings and system performance.
+
+### Construction Site Integration
+
+Future versions could be designed to perform repetitive construction tasks such as material handling, sorting, positioning and brick placement, reducing manual effort and improving efficiency on construction sites.
+
+### Safety and Reliability
+
+Additional safety mechanisms could be introduced, including emergency-stop functionality, movement limits, fault detection and improved power management to make the system more suitable for practical deployment.
+
+### Artificial Intelligence Integration
+
+Machine learning and artificial intelligence could eventually be incorporated to enable the robotic system to recognise objects, optimise movement patterns and make more intelligent decisions based on its environment.
