@@ -179,32 +179,45 @@ The following documents provide additional technical and presentation material f
 - 📄 [Final Project Report](./docs/GrpC_SheziSN_Final%20Report.pdf)
 - 📊 [Project Presentation](./docs/GrpC_SheziSN_Final%20Pres.pdf) 
   
-## 20. Project Images
+## 20. Project Photographs
 
-The following images document the physical construction, electronic integration and demonstration of the Construction Site Robotic Arm.
+The following photographs document the construction, integration, testing, and final configuration of the Construction-Site Robotic Arm prototype.
 
-### Robotic Arm Development
+### 20.1 Complete System Integration
 
-![Robotic Arm Development](./images/IMG-20260808-WA0107.jpg)
+![Complete Construction-Site Robotic Arm Prototype](images/IMG-20260808-WA0109.jpg)
 
-![Robotic Arm Development](./images/IMG-20260808-WA0108.jpg)
+*Complete Construction-Site Robotic Arm Prototype With Blynk-Based Wireless Control Interface And Integrated Ultrasonic Distance Sensing.*
 
-![Robotic Arm Development](./images/IMG-20260808-WA0109.jpg)
+### 20.2 Embedded Control Circuit
 
-### Hardware and Electronic Integration
+![ESP32 Control Circuit](images/IMG-20260808-WA0110.jpg)
 
-![Hardware and Electronic Integration](./images/IMG-20260808-WA0110.jpg)
+*ESP32-Based Control Circuit With Status LEDs, Ultrasonic Sensor Connections, And Servo Control Wiring.*
 
-![Hardware and Electronic Integration](./images/IMG-20260808-WA0111.jpg)
+### 20.3 Wireless Control And Robotic Arm
 
-### Robotic Arm Configuration
+![Robotic Arm With Blynk Interface](images/IMG-20260808-WA0111.jpg)
 
-![Robotic Arm Configuration](./images/IMG-20260808-WA0112.jpg)
+*Robotic Arm Positioned Within The Construction-Site Prototype, With The Blynk Interface Used For Wireless Monitoring And Control.*
 
-![Robotic Arm Configuration](./images/IMG-20260808-WA0113.jpg)
+### 20.4 Construction-Site Prototype
 
-### Project Demonstration
-![Project Demonstration](./images/IMG-20260808-WA0114.jpg) 
+![Construction-Site Prototype](images/IMG-20260808-WA0112.jpg)
+
+*Integrated Robotic Arm Prototype Demonstrating The Construction-Site Layout, Material Handling Area, And Wireless Control Interface.*
+
+### 20.5 Robotic Arm Assembly
+
+![Robotic Arm Assembly](images/IMG-20260808-WA0113.jpg)
+
+*Robotic Arm Mounted On The Prototype Construction Platform With Ultrasonic Object Detection And Blynk-Based Wireless Control.*
+
+### 20.6 Final Prototype Configuration
+
+![Final Robotic Arm Prototype](images/IMG-20260808-WA0114.jpg)
+
+*Construction-Site Robotic Arm Prototype Showing The Manipulator, Ultrasonic Sensor, Status Indicators, And Material Placement Area.* 
 
 ## 21. Challenges and Solutions
 
