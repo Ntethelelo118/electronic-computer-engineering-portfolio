@@ -97,4 +97,4 @@ The implemented system uses the following documented ESP32 connections:
 - **Temperature Indicator LEDs:** GPIO 25, GPIO 18, and GPIO 5
 - **LCD:** I2C interface at address `0x27`
 
-These connections form the hardware interface between the ESP32, environmental sensors, display, indicators, and controlled outputs. :contentReference[oaicite:1]{index=1}
+These connections form the hardware interface between the ESP32, environmental sensors, display, indicators, and controlled outputs.
