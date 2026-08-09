@@ -40,3 +40,31 @@ The overall system can be divided into four main stages:
 4. **Monitoring and Control** – The dashboard displays the measured parameters and provides control and monitoring of connected outputs.
 
 This architecture demonstrates how embedded hardware and IoT technologies can be combined to create a practical remote environmental monitoring solution.
+
+## 4. System Architecture
+
+The Wireless Weather Monitoring System follows a distributed IoT architecture in which environmental conditions are sensed locally, processed by an ESP32 microcontroller, and made available through a wireless monitoring interface.
+
+The main system architecture consists of the following functional blocks:
+
+- **Environmental Sensing:** A DHT11 sensor measures temperature and humidity, while an LDR is used to monitor ambient light intensity.
+- **Processing and Control:** The ESP32 serves as the central controller, receiving sensor measurements, processing the data, and executing the programmed control logic.
+- **Local Display:** A 16 × 2 I2C LCD provides local access to temperature and humidity measurements.
+- **Wireless Communication:** The ESP32 connects to a Wi-Fi network and communicates with the Blynk IoT platform for remote monitoring and control.
+- **Remote Monitoring:** The Blynk dashboard displays the measured temperature, humidity, and light-level information and provides user controls for the system.
+- **Actuation:** Relay-controlled outputs are used to control a lamp and fan. The system can operate in automatic or manual mode.
+- **Status Indication:** Indicator LEDs provide a visual representation of the temperature condition and lighting state.
+
+### System Data Flow
+
+The system operates according to the following general data flow:
+
+**Environmental Conditions → Sensors → ESP32 → Wi-Fi → Blynk Dashboard**
+
+At the same time, control commands can follow the reverse path:
+
+**Blynk Dashboard → Wi-Fi → ESP32 → Relays / Outputs**
+
+In automatic mode, the ESP32 uses programmed temperature thresholds to determine the appropriate system response. According to the implemented control logic, temperatures below 23 °C activate the lamp, temperatures between 23 °C and 28 °C represent the normal operating range, and temperatures above 28 °C activate the fan. The LDR measurement is also used to determine the ambient lighting condition and control the associated light indicator.
+
+The system therefore combines sensing, embedded processing, wireless communication, remote monitoring, and automated actuation into a single IoT-based platform.
