@@ -20,7 +20,7 @@ The project aims to explore how embedded systems, robotics, sensors and wireless
 - Blynk IoT platform
 - External 5V servo power supply
 
-## 3. System Features
+## 4. System Features
 
 - Object detection using an ultrasonic sensor
 - Robotic arm movement using multiple servo motors
@@ -95,7 +95,7 @@ The main system architecture consists of the following components:
 - **Blynk Platform:** Provides the user interface for sending control commands and interacting with the robotic arm.
 - **External Power Supply:** Provides the required power for the servo motors to ensure stable operation.
 
-### 11. Automatic Pick-and-Place Process
+### Automatic Pick-and-Place Process
 
 The ultrasonic sensor is integrated into the automatic pick-and-place process. The sensor continuously measures the distance to the target object and provides feedback to the ESP32.
 
@@ -109,11 +109,11 @@ Wireless commands through the Blynk interface provide an additional method of in
 
 The ESP32 therefore serves as the central interface between the sensing system, software control logic and physical robotic mechanism, enabling an automated construction-material handling process.
 
-## 12. Circuit and Wiring
+## 11. Circuit and Wiring
 
 The robotic arm uses an ESP32 as the main control unit. The ESP32 interfaces with the servo motors, HC-SR04 ultrasonic sensor and status LEDs.
 
-### 13. GPIO Configuration
+### GPIO Configuration
 
 | Component | ESP32 GPIO | Function |
 |---|---:|---|
@@ -127,7 +127,7 @@ The robotic arm uses an ESP32 as the main control unit. The ESP32 interfaces wit
 | Manual Mode LED | GPIO 22 | Indicates manual mode |
 | Brick Detection LED | GPIO 23 | Indicates object detection |
 
-### 14. Power and Control
+### Power and Control
 
 The ESP32 provides the control signals for the servo motors and sensor interfaces, while an external 5 V supply is used for the servo motors.
 
@@ -135,13 +135,13 @@ The servo motors are connected to the robotic arm's base, shoulder, elbow and gr
 
 The system also uses three LEDs to provide visual feedback for the operating mode and object detection status.
 
-## 15. Software and Source Code
+## 12. Software and Source Code
 
 The robotic arm is programmed using the Arduino development environment with the ESP32 as the main microcontroller.
 
 The software integrates wireless communication, sensor processing, servo control, operating-mode selection and the automatic pick-and-place sequence.
 
-### 16. Main Software Functions
+### Main Software Functions
 
 - ESP32-based embedded control
 - Blynk wireless communication
@@ -153,7 +153,7 @@ The software integrates wireless communication, sensor processing, servo control
 - Real-time distance monitoring through the Blynk interface
 - LED status indication
 
-### 17. Blynk Control
+### Blynk Control
 
 The Blynk interface is used to interact with the robotic arm remotely.
 
@@ -166,60 +166,60 @@ The Blynk interface is used to interact with the robotic arm remotely.
 | V4 | Gripper servo control |
 | V5 | Distance monitoring |
 
-### 18. Source Code
+### Source Code
 
 The complete ESP32 source code is available in the `src` directory:
 
 [View the ESP32 Source Code](./src/robotic_arm.ino)
 
-## 19. Project Documentation
+## 13. Project Documentation
 
 The following documents provide additional technical and presentation material for the project:
 
 - 📄 [Final Project Report](./docs/GrpC_SheziSN_Final%20Report.pdf)
 - 📊 [Project Presentation](./docs/GrpC_SheziSN_Final%20Pres.pdf) 
   
-## 20. Project Photographs
+## 14. Project Photographs
 
 The following photographs document the construction, integration, testing, and final configuration of the Construction-Site Robotic Arm prototype.
 
-### 20.1 Complete System Integration
+### Complete System Integration
 
 ![Complete Construction-Site Robotic Arm Prototype](images/IMG-20260808-WA0109.jpg)
 
 *Complete Construction-Site Robotic Arm Prototype With Blynk-Based Wireless Control Interface And Integrated Ultrasonic Distance Sensing.*
 
-### 20.2 Embedded Control Circuit
+### Embedded Control Circuit
 
 ![ESP32 Control Circuit](images/IMG-20260808-WA0110.jpg)
 
 *ESP32-Based Control Circuit With Status LEDs, Ultrasonic Sensor Connections, And Servo Control Wiring.*
 
-### 20.3 Wireless Control And Robotic Arm
+### Wireless Control And Robotic Arm
 
 ![Robotic Arm With Blynk Interface](images/IMG-20260808-WA0111.jpg)
 
 *Robotic Arm Positioned Within The Construction-Site Prototype, With The Blynk Interface Used For Wireless Monitoring And Control.*
 
-### 20.4 Construction-Site Prototype
+### Construction-Site Prototype
 
 ![Construction-Site Prototype](images/IMG-20260808-WA0112.jpg)
 
 *Integrated Robotic Arm Prototype Demonstrating The Construction-Site Layout, Material Handling Area, And Wireless Control Interface.*
 
-### 20.5 Robotic Arm Assembly
+### Robotic Arm Assembly
 
 ![Robotic Arm Assembly](images/IMG-20260808-WA0113.jpg)
 
 *Robotic Arm Mounted On The Prototype Construction Platform With Ultrasonic Object Detection And Blynk-Based Wireless Control.*
 
-### 20.6 Final Prototype Configuration
+### Final Prototype Configuration
 
 ![Final Robotic Arm Prototype](images/IMG-20260808-WA0114.jpg)
 
 *Construction-Site Robotic Arm Prototype Showing The Manipulator, Ultrasonic Sensor, Status Indicators, And Material Placement Area.* 
 
-## 21. Challenges and Solutions
+## 15. Challenges and Solutions
 
 Several technical and practical challenges were encountered during the development of the robotic arm. These challenges provided valuable opportunities for troubleshooting, system optimisation and engineering problem-solving.
 
@@ -269,7 +269,7 @@ Achieving suitable alignment between the robotic arm, gripper and target object.
 **Solution:**  
 The servo positions and movement sequences were adjusted through repeated testing to improve the arm's positioning and object-handling capability.
 
-## 22. Future Improvements
+## 16. Future Improvements
 
 The current robotic arm demonstrates the potential of embedded systems, sensing and automation in construction environments. Several improvements could be implemented in future versions to increase the system's accuracy, reliability and practical application.
 
@@ -305,7 +305,7 @@ Additional safety mechanisms could be introduced, including emergency-stop funct
 
 Machine learning and artificial intelligence could eventually be incorporated to enable the robotic system to recognise objects, optimise movement patterns and make more intelligent decisions based on its environment.
 
-## 23. Conclusion
+## 17. Conclusion
 
 The Construction Site Robotic Arm project provided practical experience in the design and development of an embedded automation system for construction-related applications. The project combined an ESP32 microcontroller, ultrasonic sensing, servo motor control and wireless interaction to demonstrate automated object detection, handling and pick-and-place operations.
 
