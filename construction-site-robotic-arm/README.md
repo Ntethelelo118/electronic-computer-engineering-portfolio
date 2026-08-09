@@ -198,3 +198,53 @@ The following images document the physical construction, electronic integration 
 
 ### Project Demonstration
 ![Project Demonstration](./images/IMG-20260808-WA0114.jpg) 
+
+## Challenges and Solutions
+
+Several technical and practical challenges were encountered during the development of the robotic arm. These challenges provided valuable opportunities for troubleshooting, system optimisation and engineering problem-solving.
+
+### Servo Control and Movement
+
+**Challenge:**  
+Achieving reliable and coordinated movement of multiple servo motors while maintaining accurate positioning.
+
+**Solution:**  
+The servo motors were individually configured and tested to determine suitable operating positions and movement ranges. The control logic was adjusted to coordinate the base, shoulder, elbow and gripper movements.
+
+### Power Supply and Servo Stability
+
+**Challenge:**  
+Multiple servo motors can draw significant current, particularly during simultaneous movement, which can result in unstable operation or servo jitter.
+
+**Solution:**  
+An external 5 V supply was used for the servo motors, while the ESP32 was used as the control unit. This separated the servo power demand from the microcontroller supply.
+
+### Ultrasonic Sensor Integration
+**Challenge:**  
+The robotic arm required reliable distance detection to determine when an object was within the operating range.
+
+**Solution:**  
+An HC-SR04 ultrasonic sensor was integrated with the ESP32. The measured distance was incorporated into the system logic and used as part of the automatic pick-and-place decision process.
+
+### Coordination of Automatic Pick-and-Place Operations
+
+**Challenge:**  
+Coordinating sensing, servo movement and object handling into a single automated sequence.
+
+**Solution:**  
+The system was structured so that sensor information could initiate the appropriate robotic-arm sequence, allowing the arm to detect, pick up and place an object according to predefined movement conditions.
+
+### Wireless Control and Monitoring
+
+**Challenge:**  
+Providing wireless interaction with the robotic arm while maintaining reliable communication with the ESP32.
+
+**Solution:**  
+The ESP32 was configured as the central controller, with wireless communication used to support remote control and interaction with the robotic system.
+
+### Mechanical Positioning
+**Challenge:**  
+Achieving suitable alignment between the robotic arm, gripper and target object.
+
+**Solution:**  
+The servo positions and movement sequences were adjusted through repeated testing to improve the arm's positioning and object-handling capability.
