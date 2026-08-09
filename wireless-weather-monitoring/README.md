@@ -188,3 +188,50 @@ The complete sanitized source code is available here:
 **[View ESP32 Source Code](./src/weather_monitoring.ino)**
 
 > **Note:** The published source code contains placeholders for Wi-Fi and Blynk credentials to prevent sensitive authentication information from being exposed in the public repository.
+
+## 10. Testing & Results
+
+The Wireless Weather Monitoring System was tested to verify the operation and integration of its main sensing, display, communication, and control functions.
+
+### 10.1 Sensor Testing
+
+The DHT11 sensor was used to obtain temperature and humidity measurements, while the LDR was used to monitor ambient light intensity. The ESP32 processed the sensor readings and made the information available to the local display and Blynk monitoring interface.
+
+### 10.2 Display Testing
+
+The 16 × 2 I2C LCD was tested to provide local feedback of the measured environmental conditions. Temperature and humidity readings were displayed on the LCD during system operation.
+
+### 10.3 Wireless Monitoring
+
+The ESP32 was configured to communicate with the Blynk IoT platform through Wi-Fi. Sensor measurements were transmitted to the dashboard for remote monitoring.
+
+The following Blynk datastreams were implemented:
+
+| Virtual Pin | Parameter / Function |
+|---|---|
+| **V0** | Temperature |
+| **V1** | Humidity |
+| **V2** | Light Level |
+| **V3** | Automatic / Manual Mode |
+| **V4** | Manual Bulb Control |
+| **V5** | Manual Fan Control |
+
+### 10.4 Automatic Control Testing
+
+The automatic operating mode uses programmed temperature thresholds to control the connected outputs:
+
+- **Below 23 °C:** Lamp activated and fan deactivated.
+- **23–28 °C:** Lamp and fan deactivated.
+- **Above 28 °C:** Fan activated and lamp deactivated.
+
+Temperature indicator LEDs provide additional visual feedback for the different temperature ranges.
+
+### 10.5 Manual Control Testing
+
+The manual operating mode allows the user to control the lamp and fan through the Blynk dashboard. This provides an alternative to the automatic temperature-based control logic.
+
+### 10.6 Overall System Integration
+
+The testing process focused on verifying the interaction between the sensors, ESP32, LCD, Blynk platform, indicator LEDs, and relay-controlled outputs.
+
+The implemented system demonstrates the integration of environmental sensing, embedded processing, wireless communication, remote monitoring, and automated/manual control within a single IoT platform.
