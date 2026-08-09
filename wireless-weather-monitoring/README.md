@@ -23,3 +23,20 @@ The project objectives were to:
 - Demonstrate the practical integration of embedded systems, sensors, wireless communication, and IoT technologies.
 - Test and evaluate the system to verify its functionality and reliability under practical operating conditions.
 - Develop teamwork, technical problem-solving, system integration, and engineering project-management skills through collaborative implementation.
+
+## 3. System Description
+
+The Wireless Weather Monitoring System is an ESP32-based Internet of Things (IoT) platform designed to monitor environmental conditions and provide remote access to the collected data.
+
+The system uses environmental sensors connected to the ESP32 to acquire real-time measurements. The ESP32 processes the sensor readings and communicates the data wirelessly to the monitoring platform. The collected information is presented through a digital dashboard, allowing users to monitor the environmental conditions remotely.
+
+In addition to environmental monitoring, the system incorporates controllable outputs that respond to the monitored conditions. This demonstrates the integration of sensing, processing, wireless communication, remote monitoring, and automated control within a single embedded system.
+
+The overall system can be divided into four main stages:
+
+1. **Sensing** – Environmental sensors measure the required physical parameters.
+2. **Processing** – The ESP32 receives and processes the sensor measurements.
+3. **Wireless Communication** – The processed data is transmitted wirelessly to the monitoring platform.
+4. **Monitoring and Control** – The dashboard displays the measured parameters and provides control and monitoring of connected outputs.
+
+This architecture demonstrates how embedded hardware and IoT technologies can be combined to create a practical remote environmental monitoring solution.
