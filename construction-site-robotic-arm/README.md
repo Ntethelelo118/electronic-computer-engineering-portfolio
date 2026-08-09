@@ -171,3 +171,30 @@ The Blynk interface is used to interact with the robotic arm remotely.
 The complete ESP32 source code is available in the `src` directory:
 
 [View the ESP32 Source Code](./src/robotic_arm.ino)
+
+## 13. Project Images
+
+The following images document the physical construction, electronic integration and demonstration of the Construction Site Robotic Arm.
+
+### Robotic Arm Development
+
+![Robotic Arm Development](./images/IMG-20260808-WA0107.jpg)
+
+![Robotic Arm Development](./images/IMG-20260808-WA0108.jpg)
+
+![Robotic Arm Development](./images/IMG-20260808-WA0109.jpg)
+
+### Hardware and Electronic Integration
+
+![Hardware and Electronic Integration](./images/IMG-20260808-WA0110.jpg)
+
+![Hardware and Electronic Integration](./images/IMG-20260808-WA0111.jpg)
+
+### Robotic Arm Configuration
+
+![Robotic Arm Configuration](./images/IMG-20260808-WA0112.jpg)
+
+![Robotic Arm Configuration](./images/IMG-20260808-WA0113.jpg)
+
+### Project Demonstration
+![Project Demonstration](./images/IMG-20260808-WA0114.jpg) 
