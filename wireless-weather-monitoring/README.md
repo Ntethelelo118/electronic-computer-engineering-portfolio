@@ -68,3 +68,33 @@ At the same time, control commands can follow the reverse path:
 In automatic mode, the ESP32 uses programmed temperature thresholds to determine the appropriate system response. According to the implemented control logic, temperatures below 23 °C activate the lamp, temperatures between 23 °C and 28 °C represent the normal operating range, and temperatures above 28 °C activate the fan. The LDR measurement is also used to determine the ambient lighting condition and control the associated light indicator.
 
 The system therefore combines sensing, embedded processing, wireless communication, remote monitoring, and automated actuation into a single IoT-based platform.
+
+## 5. Hardware Components
+
+The Wireless Weather Monitoring System was developed using an ESP32-based embedded platform together with environmental sensors, a local display, indicator LEDs, and relay-controlled outputs.
+
+| Component | Function |
+|---|---|
+| **ESP32 Development Board** | Main microcontroller responsible for sensor acquisition, control logic, Wi-Fi communication, and interaction with the Blynk IoT platform. |
+| **DHT11 Temperature & Humidity Sensor** | Measures ambient temperature and relative humidity. |
+| **LDR (Light-Dependent Resistor)** | Measures ambient light intensity and provides an indication of bright or dark conditions. |
+| **16 × 2 I2C LCD** | Displays temperature and humidity locally. |
+| **Relay Module / Relay Outputs** | Provides switching control for the lamp and fan according to the programmed operating conditions or manual commands. |
+| **Temperature Indicator LEDs** | Provide visual indication of the measured temperature range: below 23 °C, 23–28 °C, and above 28 °C. |
+| **Light Indicator LED** | Indicates the detected ambient lighting condition based on the LDR measurement. |
+| **Breadboard and Jumper Wires** | Used for prototyping, interconnecting, and testing the electronic components. |
+| **Power Supply** | Provides the required electrical power to the ESP32 and connected circuit components. |
+
+### Main ESP32 Connections
+
+The implemented system uses the following documented ESP32 connections:
+
+- **DHT11:** GPIO 4
+- **LDR:** GPIO 34
+- **Lamp Relay:** GPIO 17
+- **Fan Relay:** GPIO 16
+- **Light Indicator LED:** GPIO 27
+- **Temperature Indicator LEDs:** GPIO 25, GPIO 18, and GPIO 5
+- **LCD:** I2C interface at address `0x27`
+
+These connections form the hardware interface between the ESP32, environmental sensors, display, indicators, and controlled outputs. :contentReference[oaicite:1]{index=1} 
