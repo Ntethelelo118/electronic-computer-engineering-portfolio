@@ -336,3 +336,38 @@ The system demonstrates the ability to:
 - Provide manual monitoring and control functionality through the Blynk interface.
 
 Overall, the testing photographs provide practical evidence of the integration of sensing, embedded processing, wireless monitoring, indication, and automatic environmental control within a single functional prototype.
+
+## 12. Individual Role and Contribution
+
+This project was completed as a group project, with responsibilities shared among the team members. As a member of the project team, I contributed to the technical development, integration, testing, and presentation of the Wireless Weather Monitoring System.
+
+### My Responsibilities
+
+My individual contributions included:
+
+- Contributing to the design and development of the ESP32-based weather monitoring system.
+- Assisting with the integration of the DHT11 temperature and humidity sensor and LDR for environmental monitoring.
+- Contributing to the implementation of the automatic temperature-control logic.
+- Assisting with the integration and testing of the relay-controlled lamp and fan.
+- Contributing to the integration of the LCD and LED indicators for local system feedback.
+- Assisting with the configuration and testing of the Blynk IoT monitoring and control interface.
+- Participating in system testing under different temperature and lighting conditions.
+- Contributing to troubleshooting, debugging, and resolving hardware and software integration challenges.
+- Participating in the preparation of the project documentation and final presentation.
+- Contributing to the demonstration of the completed system and explaining its operation.
+
+### Skills Demonstrated
+
+Through my contribution to the project, I developed and demonstrated practical skills in:
+
+- ESP32 embedded systems development
+- IoT and wireless communication
+- Sensor interfacing
+- Relay and actuator control
+- LCD and LED interfacing
+- Blynk IoT platform configuration
+- Embedded C/C++ programming
+- Hardware and software integration
+- System testing and troubleshooting
+- Technical documentation
+- Teamwork and engineering project collaboration
