@@ -403,3 +403,41 @@ The individual final presentation provides an overview of my personal contributi
 **[View Individual Final Presentation](./docs/GrpH_SheziSN_Final%20Pres.pdf)**
 
 These documents provide additional technical and academic evidence supporting the development and implementation  of the Wireless Weather Monitoring System. 
+
+## 14. Future Improvements
+
+Although the Wireless Weather Monitoring System successfully demonstrates environmental monitoring, wireless communication, and automated control, several improvements could be implemented to enhance the system's functionality, reliability, scalability, and practical application.
+
+### 14.1 Expanded Environmental Monitoring
+
+Additional environmental sensors could be integrated to monitor parameters such as atmospheric pressure, rainfall, wind speed, and air quality. This would allow the system to provide a more comprehensive representation of weather conditions.
+
+### 14.2 Improved Sensor Accuracy
+
+Higher-precision and more reliable environmental sensors could be incorporated to improve measurement accuracy and system performance, particularly for applications requiring continuous long-term monitoring.
+
+### 14.3 Enhanced IoT Dashboard
+
+The monitoring interface could be expanded to include historical data logging, graphical trends, alerts, and data analysis. This would allow users to analyse environmental changes over time rather than relying only on real-time readings.
+
+### 14.4 Automated Alert System
+
+Notifications could be implemented to alert users when environmental parameters exceed predefined thresholds. Alerts could be delivered through the IoT platform to provide immediate awareness of abnormal conditions.
+
+### 14.5 Improved Hardware Enclosure
+
+A more robust and weather-resistant enclosure could be developed to protect the electronics and sensors from environmental exposure. This would make the system more suitable for outdoor deployment and long-term operation.
+
+### 14.6 Remote Data Storage
+
+The system could be integrated with a dedicated cloud database for storing historical sensor measurements. This would enable long-term data analysis, reporting, and identification of environmental trends.
+
+### 14.7 Energy-Efficient Operation
+
+Future versions could incorporate a rechargeable battery and renewable energy source such as a solar panel. Low-power operating modes could also be implemented to reduce energy consumption and support autonomous operation.
+
+### 14.8 Scalability
+
+Multiple monitoring nodes could be deployed across different locations and connected to a central monitoring platform. This would allow environmental conditions to be monitored across a larger geographical area.
+
+Overall, these improvements could transform the prototype into a more robust, scalable, and practical IoT-based environmental monitoring solution. 
