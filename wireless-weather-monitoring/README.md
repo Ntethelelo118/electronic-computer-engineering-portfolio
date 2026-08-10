@@ -371,3 +371,35 @@ Through my contribution to the project, I developed and demonstrated practical s
 - System testing and troubleshooting
 - Technical documentation
 - Teamwork and engineering project collaboration
+
+## 13. Project Documentation
+
+The project documentation provides detailed information about the design, implementation, testing, individual contribution, and presentation of the Wireless Weather Monitoring System.
+
+All supporting documents are available in the `docs` folder.
+
+### 13.1 Group Final Report
+
+The group final report provides a comprehensive record of the Wireless Weather Monitoring System, including the project objectives, system design, implementation, testing, results, and conclusions.
+
+**[View Group Final Report](./docs/GrpH_Final%20Report.pdf)**
+
+### 13.2 Individual Task Report
+
+The individual task report documents my specific contribution to the group project and provides additional details regarding the individual work completed as part of the system development.
+
+**[View Individual Task Report](./docs/GrpH_SheziSN_Final%20Report.pdf)**
+
+### 13.3 Group Final Presentation 
+
+The group final presentation summarises the Wireless Weather Monitoring System, including its objectives, system design, implementation, testing, results, and overall project outcomes.
+
+**[View Group Final Presentation](./docs/GrpH_Final%20Pres.pdf)**
+
+### 13.4 Individual Final Presentation
+
+The individual final presentation provides an overview of my personal contribution to the project and the technical aspects of the work completed.
+
+**[View Individual Final Presentation](./docs/GrpH_SheziSN_Final%20Pres.pdf)**
+
+These documents provide additional technical and academic evidence supporting the development and implementation  of the Wireless Weather Monitoring System. 
