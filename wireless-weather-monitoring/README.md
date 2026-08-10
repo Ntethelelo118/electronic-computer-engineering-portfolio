@@ -235,3 +235,104 @@ The manual operating mode allows the user to control the lamp and fan through th
 The testing process focused on verifying the interaction between the sensors, ESP32, LCD, Blynk platform, indicator LEDs, and relay-controlled outputs.
 
 The implemented system demonstrates the integration of environmental sensing, embedded processing, wireless communication, remote monitoring, and automated/manual control within a single IoT platform.
+
+## 11. Project Implementation, Testing and Demonstration
+
+The Wireless Weather Monitoring System was assembled and tested to verify the integration of the environmental sensors, control outputs, local display, indicator LEDs, and wireless monitoring interface. The final prototype was evaluated under different environmental conditions to demonstrate its ability to monitor temperature, humidity, and light intensity and to respond automatically when the measured conditions moved outside the desired operating range.
+
+### 11.1 Final Prototype and System Integration
+
+The completed Wireless Weather Monitoring System integrates the ESP32 microcontroller with the DHT11 temperature and humidity sensor, LDR-based light detection, relay-controlled outputs, indicator LEDs, and an LCD display. The system also communicates with the Blynk platform, allowing the monitored parameters and selected control functions to be viewed remotely.
+
+![Final Wireless Weather Monitoring System prototype with Blynk monitoring dashboard](./images/IMG-20260810-WA0005.jpg)
+
+**Figure 11.1:** Final Wireless Weather Monitoring System prototype with the Blynk monitoring dashboard.
+
+![Final prototype operating alongside the Blynk monitoring interface](./images/IMG-20260810-WA0003.jpg)
+
+**Figure 11.2:** Final prototype operating alongside the Blynk monitoring interface.
+
+![Final prototype showing LCD readings and Blynk monitoring](./images/IMG-20260810-WA0002.jpg)
+
+**Figure 11.3:** Final prototype showing the LCD readings together with the Blynk environmental monitoring interface.
+
+![Final prototype demonstrating integrated monitoring and control](./images/IMG-20260810-WA0001.jpg)
+
+**Figure 11.4:** Final prototype demonstrating integrated environmental monitoring and control through the physical system and Blynk interface.
+
+![Final prototype demonstrating real-time monitoring](./images/IMG-20260810-WA0000.jpg)
+
+**Figure 11.5:** Final prototype demonstrating real-time temperature, humidity, and darkness-level monitoring through the LCD and Blynk dashboard.
+
+These photographs demonstrate the integration of the hardware and software components into a functional wireless monitoring system. The LCD provides local feedback, while the Blynk interface provides remote access to the measured environmental parameters and control functions.
+
+### 11.2 Hardware Wiring and Circuit Implementation
+
+The hardware connections used to implement the system are shown in the circuit diagram below. The ESP32 serves as the central controller and interfaces with the DHT11 sensor, LDR, relay module, LCD, indicator LEDs, and controlled electrical loads.
+
+![ESP32-based Wireless Weather Monitoring System circuit diagram](./images/IMG-20260809-WA0013.jpg)
+
+**Figure 11.6:** ESP32-based circuit wiring diagram showing the connections between the controller, sensors, display, relay-controlled loads, and indicator LEDs.
+
+The circuit diagram provides a documented representation of the hardware implementation and shows how the different components were interconnected to achieve environmental monitoring and automatic control.
+
+### 11.3 Temperature Control Testing 
+
+The temperature-control functionality was tested under three different operating conditions: temperature within the desired range, temperature below the desired range, and temperature above the desired range.
+
+#### 11.3.1 Temperature Within the Desired Range
+
+When the measured temperature falls within the predefined desired range, the system does not activate the heating or cooling output. The green indicator LED is used to indicate that the temperature is within the desired operating range.
+
+![Temperature within desired range with green indicator LED](./images/IMG-20260809-WA0011.jpg)
+
+**Figure 11.7:** Final prototype without housing showing temperature within the desired range and activation of the green temperature-status indicator LED.
+
+This test demonstrates the normal operating condition of the temperature-control system.
+
+#### 11.3.2 Temperature Below the Desired Range
+
+When the measured temperature falls below the desired range, the system activates the lamp, which functions as the heating element. The purpose of this response is to increase the temperature towards the desired operating range.
+
+![Low temperature condition with heating lamp activated](./images/IMG-20260809-WA0009.jpg)
+
+**Figure 11.8:** Final prototype without housing demonstrating low-temperature operation, with the lamp activated as the heating element.
+
+This test demonstrates the system's ability to automatically respond to a low-temperature condition.
+
+#### 11.3.3 Temperature Above the Desired Range
+
+When the measured temperature exceeds the desired range, the system activates the fan as a cooling element. At the same time, the red indicator LED is activated to provide a visual indication that the temperature is above the desired range.
+
+![High temperature condition with cooling fan and red indicator LED](./images/IMG-20260809-WA0008.jpg)
+
+**Figure 11.9:** Final prototype without housing demonstrating high-temperature operation, with the cooling fan and red temperature-status indicator activated.
+
+This demonstrates the automatic cooling response and the use of the indicator LED to communicate the system's temperature status.
+
+### 11.4 LDR Darkness Detection Testing
+
+The LDR functionality was tested to verify the system's ability to detect changes in ambient light conditions.
+
+![LDR darkness detection test](./images/IMG-20260809-WA0012.jpg)
+
+**Figure 11.10:** Final prototype without housing demonstrating the LDR-based darkness detection function.
+
+The test demonstrates the integration of the LDR with the ESP32 and confirms that changes in ambient light can be detected by the system and used as an input for the lighting-control functionality.
+
+### 11.5 Overall System Demonstration
+
+The photographs collectively demonstrate the progression from the hardware implementation and circuit configuration to the completed prototype, wireless monitoring interface, and functional testing.
+
+The system demonstrates the ability to:
+
+- Monitor temperature and humidity.
+- Detect changes in ambient light using the LDR.
+- Display measurements locally using the LCD.
+- Transmit environmental measurements to the Blynk platform.
+- Activate the heating element when the temperature falls below the desired range.
+- Activate the cooling fan when the temperature rises above the desired range.
+- Provide visual temperature-status indications using LEDs.
+- Provide manual monitoring and control functionality through the Blynk interface.
+
+Overall, the testing photographs provide practical evidence of the integration of sensing, embedded processing, wireless monitoring, indication, and automatic environmental control within a single functional prototype.
